@@ -9,7 +9,45 @@
 
 .container{
   width: 100%;
-  height: 100vh;
-  background-color: var(--container-bg-color);
+  height: 50vh;
+  /* background-color: var(--container-bg-color);
+  background: url(../../assets/img/img_top.svg),url(../../assets/img/img_bottom.svg);
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
+.img{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  background-color: yellow;
+  position: relative;
+
+}
+
+#carnaval1, #carnaval2{
+  width: 28%;
+  border: 1px solid red;
+
+}
+#carnaval1{
+  position: absolute;
+  object-fit: 50%;
+  top: 0;
+  left: 0;
+}
+
+#carnaval2{
+  position: absolute;
+  object-fit: 50%;
+  bottom: 0;
+  right: 0;
+}
+
+.busca{
+  position: absolute;
+  
+}
