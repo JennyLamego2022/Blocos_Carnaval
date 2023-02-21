@@ -149,5 +149,25 @@ input:focus, select:focus{
   }
 
 }
+@media (max-width: 768px) {
+  .pesquisa{
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .pesquisaNome, .pesquisaBlocos{
+    padding: 6px 4px 6px 7px;
+    gap: 5px;
+  }
+
+  input, select{
+    padding-left: 0.03rem;
+  }
+
+  .botao-busca{
+    padding: 5px 0;
+    font-size: 10px;
+  }
+}
 
 
