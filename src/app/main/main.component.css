@@ -1,0 +1,145 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color:#E45858;
+  transform: scale(0.8);
+}
+
+.container{
+  /* width: 100%; */
+  font-family: 'Josefin Sans', sans-serif;
+  /* background-color: yellow; */
+  margin: 6.25rem 7rem;
+}
+
+.titulo-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 694px;
+}
+
+.acao{
+  width: 11,875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  border: 1px solid #EAEAEA;
+  border-radius: 6px;
+
+}
+
+.botao-busca{
+  background-color: #6246EA;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 24px;
+  gap: 8px;
+  width: 86px;
+  height: 32px;
+  cursor: pointer;
+}
+
+#mapa{
+  background-color: white;
+  color: #6246EA;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-start;
+  justify-items: center;
+  padding: 0px;
+  gap: 32px;
+  border-radius: 10px;
+}
+
+.box-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+  isolation: isolate;
+
+  /* width: 384px; */
+  height: 323px;
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 10px;
+}
+
+.box-img{
+  width: 100%;
+  height: 153px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+}
+.img{
+
+  width: 100%;
+  height: 153px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.box-texto{
+  width: 100%;
+  height: 170px;
+
+
+}
+
+.sub-titulo{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 140%;
+  margin-top: 0;
+  color:#121214;
+}
+
+.descricao{
+  width: 100%;
+  height: 52px;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  word-break: break-all;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 1.5;
+  margin:  2rem 0;
+}
+
+.localizacao{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+#localizacao{
+  margin: 0;
+}
+
