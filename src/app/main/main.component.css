@@ -111,12 +111,18 @@
 
 }
 
+.titulo{
+  font-family: 'Julee', cursive;
+  letter-spacing: 2px;
+}
+
 .sub-titulo{
   font-size: 20px;
   font-weight: 700;
   line-height: 140%;
   margin-top: 0;
   color:#121214;
+
 }
 
 .descricao{
@@ -142,21 +148,4 @@
 
 #localizacao{
   margin: 0;
-}
-
-@media (max-width: 1024px) {
-  .descricao{
-    max-width: 100ch;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 1rem 0;
-  }
-
-}
-@media (max-width: 768px) {
-  .cards{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
 }
