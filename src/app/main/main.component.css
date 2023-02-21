@@ -20,7 +20,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 694px;
+  /* gap: 694px; */
+
 }
 
 .acao{
@@ -143,3 +144,12 @@
   margin: 0;
 }
 
+@media (max-width: 1024px) {
+  .descricao{
+    max-width: 100ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 1rem 0;
+  }
+
+}

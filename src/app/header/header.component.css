@@ -143,4 +143,11 @@ input:focus, select:focus{
 
 }
 
+@media (max-width: 1024px) {
+  .pesquisaNome, .pesquisaBlocos{
+    width: auto;
+  }
+
+}
+
 
