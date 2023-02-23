@@ -53,11 +53,23 @@
   width: 86px;
   height: 32px;
   cursor: pointer;
+  transition: background 200ms ;
+}
+
+
+.botao-busca:hover{
+  background: #523dbe;
 }
 
 #mapa{
   background-color: white;
   color: #6246EA;
+  transition: background 200ms ;
+}
+
+#mapa:hover{
+  background: #EAEAEA;
+
 }
 
 .cards{
