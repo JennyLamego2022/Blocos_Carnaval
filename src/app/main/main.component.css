@@ -135,7 +135,7 @@
   word-break: break-all;
   color: rgba(0, 0, 0, 0.75);
   line-height: 1.5;
-  margin:  2rem 0;
+  margin:  1rem 0;
 }
 
 .localizacao{
@@ -149,3 +149,7 @@
 #localizacao{
   margin: 0;
 }
+
+
+
+

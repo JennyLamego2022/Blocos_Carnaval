@@ -9,17 +9,21 @@
       <p id="t1">Find your block</p>
       <h1 id="h1">Encontre os <b id="t">melhores blocos</b><br>de carnaval de 2023</h1>
     </div>
-    <div class="pesquisa">
+    <form class="pesquisa">
       <div class="pesquisaNome">
+        <label for="name"></label>
         <span class="material-symbols-outlined">search</span>
-        <input type="search" class="pesquisa_nome" placeholder="Pesquise por nome">
+        <input type="text" id="name" name ="name" class="pesquisa_nome" placeholder="Pesquise por nome">
       </div>
 
 
        <div class="pesquisaBlocos">
+        <label for="city"></label>
         <span class="material-symbols-outlined">location_on</span>
-        <select class="cidade">
-          <option id="options" value="vazio">Selecione uma cidade</option>
+        <select name="city" id="city" class="cidade">
+          <option id="options" value="vazio" selected>Selecione uma cidade</option>
+          <option id="options" value="http://www.blocosderua.com/belo-horizonte/">Belo Horizonte</option>
+
           <option id="options" value="Rio">Rio de Janeiro</option>
           <option id="options" value="Sao Paulo">São Paulo</option>
           <option id="options" value="Recife">Recife</option>
@@ -29,6 +33,6 @@
         <button class="botao-busca">BUSCAR AGORA</button>
        </div>
 
-    </div>
+    </form>
   </div>
 </div>

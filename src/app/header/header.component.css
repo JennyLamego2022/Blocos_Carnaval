@@ -71,6 +71,10 @@
 #t1{
   color: #E45858;
   margin-bottom: 0;
+  line-height: 160%;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 
@@ -103,6 +107,7 @@ input, select{
   color: #7C7C8A;
   width: 100%;
   cursor: pointer;
+  /* all: unset; */
 }
 
 input:focus, select:focus{
