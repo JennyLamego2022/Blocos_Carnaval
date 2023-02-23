@@ -7,8 +7,6 @@
     margin: 1rem 0;
   }
 
-}
-@media (max-width: 768px) {
   .cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -16,7 +14,8 @@
 
 }
 
-@media (max-width: 425px) {
+
+@media (max-width: 600px) {
   .container{
     margin: 2rem;
   }
