@@ -4,8 +4,8 @@ Single page, destinda a pesquisas de bloco de Carnaval 2023.
 
 ### Lista de Tarefas:
 
--[ ]Criação de header;
--[ ]Criação de main;
+-[x]Criação de header;
+-[x]Criação de main;
 -[ ]Criação de footer;
 
 
